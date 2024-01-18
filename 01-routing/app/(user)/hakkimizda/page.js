@@ -1,3 +1,3 @@
 export default function Hakkimizda(){
-    return <div>Hakkımızda</div>;
+    return <div>Hakkımızda sayfası</div>;
 }
