@@ -1,8 +1,17 @@
-export default function page() {
+import { resolve } from "styled-jsx/css";
+
+async function TestRoute() {
+     await delay(3000);
     return (
         <div>
-            Test Page
+            Test Route
         </div>
     );
+   
 }
+async function delay(ms){
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+export default TestRoute;
 
