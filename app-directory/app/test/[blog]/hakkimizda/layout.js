@@ -1,4 +1,5 @@
-export default function HakkimizdaLayout({children}) {
+export default function HakkimizdaLayout({children,...rest}) {
+    console.log(rest);
     return (
         <div>
             <h1>Hakkımızda layoutunda geliyorum</h1>
@@ -7,3 +8,4 @@ export default function HakkimizdaLayout({children}) {
     );
 }
 
+ 
