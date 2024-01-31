@@ -2,23 +2,23 @@
 import { notFound } from 'next/navigation';
 import React from 'react'
 
-// function Blog({searchParams}) {
-//     if (searchParams.error === "true") {
-//         throw new Error("This is an error");
-//     }
-//     return (
-//       <div>Blog Page</div>
-//     )
-// }
-
-// export default Blog;
 function BlogPage({searchParams}) {
-    if (searchParams.test === "true") {
-        notFound();
+    if (searchParams.error === "true") {
+        throw new Error("This is an error");
     }
     return (
       <div>Blog Page</div>
     )
 }
+
+// export default Blog;
+// function BlogPage({searchParams}) {
+//     if (searchParams.test === "true") {
+//         notFound();
+//     }
+//     return (
+//       <div>Blog Page</div>
+//     )
+// }
 
 export default BlogPage;
