@@ -4,4 +4,4 @@ function Error() {
         <h1>Error</h1>
     );
 }
-export default Error;
+export default Error;  

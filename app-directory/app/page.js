@@ -1,8 +1,8 @@
 
-// export const metadata = {
-//   title: 'Anasayfa'
+export const metadata = {
+  title: 'Anasayfa'
 
-// }
+}
  
 export default function Home() {
   return (
